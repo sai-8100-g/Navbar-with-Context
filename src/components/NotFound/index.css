@@ -1,0 +1,43 @@
+.notfoundContainer {
+  min-height: 100vh;
+}
+
+.lowerNotFoundContainer {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerNotFoundContainer > img {
+  width: 20%;
+}
+
+.notBg {
+  background-color: #000000;
+}
+
+.para {
+  color: #171f46;
+}
+
+@media (max-width: 768px) {
+  .lowerNotFoundContainer > img {
+    width: 40%;
+  }
+
+  .para {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .lowerNotFoundContainer > img {
+    width: 20%;
+  }
+
+  .para {
+    font-size: 1.5vw;
+  }
+}

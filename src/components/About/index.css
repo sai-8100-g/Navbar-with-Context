@@ -1,0 +1,48 @@
+.aboutContainer {
+  min-height: 100vh;
+}
+
+.lowerAboutContainer {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerAboutContainer > img {
+  width: 10%;
+}
+
+.heading {
+  font-size: 2vw;
+  color: #1e293b;
+}
+
+.aboutBg {
+  background-color: #000000;
+}
+
+.color {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .lowerAboutContainer > img {
+    width: 40%;
+  }
+
+  .heading {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .lowerAboutContainer > img {
+    width: 20%;
+  }
+
+  .heading {
+    font-size: 2vw;
+  }
+}

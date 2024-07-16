@@ -1,0 +1,35 @@
+.homeContainer {
+  min-height: 100vh;
+}
+
+.lowerHomeContainer {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerHomeContainer > img {
+  width: 10%;
+}
+
+.homeBg {
+  background-color: #000000;
+}
+
+.color {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .lowerHomeContainer > img {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .lowerHomeContainer > img {
+    width: 20%;
+  }
+}
